@@ -1,31 +1,78 @@
 {
-    "posts": [
+    "operations": [
       {
-        "id": 1,
-        "title": "Post 1"
+        "idOperation": 1,
+        "idCategory": 1,
+       "value": 2000,
+        "description": "Залил БЕНЗИН"
       },
       {
-        "id": 2,
-        "title": "Post 2"
+        "idOperation": 2,
+        "idCategory": 2,
+        "value": 4000,
+        "description": "Покушал"
       },
       {
-        "id": 3,
-        "title": "Post 3"
+        "idOperation": 3,
+        "idCategory": 3,
+        "value": 6000,
+        "description": "Заплатил за инет"
+      },
+      {
+        "idOperation": 4,
+        "idCategory": 4,
+        "value": 8000,
+        "description": "Получил ЗП"
+      },
+      {
+        "idOperation": 5,
+        "idCategory": 5,
+        "value": 10000,
+        "description": "Получил ЗП номер 2"
+      },
+      {
+        "idOperation": 6,
+        "idCategory": 4,
+        "value": 2000,
+        "description": "Cнова получил зп"
+      },
+      {
+        "idOperation": 7,
+        "idCategory": 6,
+        "value": 2000,
+        "description": "Cнова получил премию"
       }
     ],
-    "comments": [
+    "categories": [
       {
-        "id": 1,
-        "body": "some comment",
-        "postId": 1
+        "idCategory": 1,
+        "type": "consumption",
+        "name": "Бензин"
       },
       {
-        "id": 2,
-        "body": "some comment",
-        "postId": 1
+        "idCategory": 2,
+        "type": "consumption",
+        "name": "Еда"
+      },
+      {
+        "idCategory": 3,
+        "type": "consumption",
+        "name": "Интернет"
+      },
+      {
+        "idCategory": 4,
+        "type": "profit",
+        "name": "Зарплата"
+      },
+      {
+        "idCategory": 5,
+        "type": "profit",
+        "name": "Зарплата 2"
+      },
+      {
+        "idCategory": 6,
+        "type": "profit",
+        "name": "Премия"
       }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
+    ]
   }
