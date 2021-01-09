@@ -1,43 +1,43 @@
 {
     "operations": [
       {
-        "idOperation": 1,
-        "idCategory": 1,
-       "value": 2000,
+        "id": "1",
+        "idCategory": "1",
+       "value": "2000",
         "description": "Залил БЕНЗИН"
       },
       {
-        "idOperation": 2,
+        "id": 2,
         "idCategory": 2,
         "value": 4000,
         "description": "Покушал"
       },
       {
-        "idOperation": 3,
+        "id": 3,
         "idCategory": 3,
         "value": 6000,
         "description": "Заплатил за инет"
       },
       {
-        "idOperation": 4,
+        "id": 4,
         "idCategory": 4,
         "value": 8000,
         "description": "Получил ЗП"
       },
       {
-        "idOperation": 5,
+        "id": 5,
         "idCategory": 5,
         "value": 10000,
         "description": "Получил ЗП номер 2"
       },
       {
-        "idOperation": 6,
+        "id": 6,
         "idCategory": 4,
         "value": 2000,
         "description": "Cнова получил зп"
       },
       {
-        "idOperation": 7,
+        "id": 7,
         "idCategory": 6,
         "value": 2000,
         "description": "Cнова получил премию"
@@ -45,32 +45,32 @@
     ],
     "categories": [
       {
-        "idCategory": 1,
+        "id": 1,
         "type": "consumption",
         "name": "Бензин"
       },
       {
-        "idCategory": 2,
+        "id": 2,
         "type": "consumption",
         "name": "Еда"
       },
       {
-        "idCategory": 3,
+        "id": 3,
         "type": "consumption",
         "name": "Интернет"
       },
       {
-        "idCategory": 4,
+        "id": 4,
         "type": "profit",
         "name": "Зарплата"
       },
       {
-        "idCategory": 5,
+        "id": 5,
         "type": "profit",
         "name": "Зарплата 2"
       },
       {
-        "idCategory": 6,
+        "id": 6,
         "type": "profit",
         "name": "Премия"
       }
